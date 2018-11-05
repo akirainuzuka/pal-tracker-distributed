@@ -1,5 +1,6 @@
 package io.pivotal.pal.tracker.allocations;
 
+
 import io.pivotal.pal.tracker.allocations.data.AllocationDataGateway;
 import io.pivotal.pal.tracker.allocations.data.AllocationFields;
 import io.pivotal.pal.tracker.allocations.data.AllocationRecord;

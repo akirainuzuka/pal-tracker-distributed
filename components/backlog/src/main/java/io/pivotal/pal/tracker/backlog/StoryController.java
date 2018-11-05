@@ -35,6 +35,7 @@ public class StoryController {
         return new ResponseEntity<>(HttpStatus.SERVICE_UNAVAILABLE);
     }
 
+
     @GetMapping
     public List<StoryInfo> list(@RequestParam long projectId) {
         return gateway.findAllByProjectId(projectId).stream()
